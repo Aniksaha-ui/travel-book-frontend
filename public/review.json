@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "tourName": "Rome Tour",
+    "rateing": 5,
+    "img": "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h1-testimonial-1.png",
+    "description": "Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice",
+    "interval": 2000
+  },
+  {
+    "id": 2,
+    "tourName": "India Tour",
+    "rateing": 5,
+    "img": "https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h1-testimonials-2.png",
+    "description": "Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice tour.Nice",
+    "interval": 3000
+  }
+]

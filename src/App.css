@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+}
+
+.bg-3fd0d4 {
+  background-color: #f3f6fd;
+}
+
+.card-redius {
+  border: 1px solid rgb(135, 130, 121);
+  border-radius: 0px 0px 35px 35px;
+}
+.card-redius-down {
+  border: 1px solid rgb(135, 130, 121);
+  border-radius: 0px 35px;
+}

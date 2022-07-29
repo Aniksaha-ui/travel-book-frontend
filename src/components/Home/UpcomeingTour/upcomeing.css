@@ -1,0 +1,11 @@
+.container-custom {
+  margin: 30px;
+  background-color: white;
+}
+.nav-link {
+  text-decoration: none;
+}
+
+.border-20 {
+  border-radius: 20px;
+}
