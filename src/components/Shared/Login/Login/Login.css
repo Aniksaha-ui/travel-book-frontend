@@ -1,0 +1,7 @@
+.background-custom-image {
+  background-image: url("https://vistapointe.net/images/amalfi-5.jpg");
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}

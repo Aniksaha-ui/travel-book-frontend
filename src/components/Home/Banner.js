@@ -26,7 +26,7 @@ const Banner = () => {
         <div className="col-lg-5 col-md-12 col-12">
           <img
             src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp"
-            class="d-block w-100"
+            className="d-block w-100"
             alt="Canyon at Nigh"
           />
         </div>

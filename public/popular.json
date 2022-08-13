@@ -5,9 +5,9 @@
     "description": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
     "price": 3000,
     "availableSeat": 50,
-    "img": "https://avante.biz/wp-content/uploads/Oklahoma-Wallpapers/Oklahoma-Wallpapers-001.jpg",
+    "img": "https://duruthemes.com/demo/html/travol/img/tours/france1.jpg",
     "country": "Italy",
-    "status": "upcomeing"
+    "status": "popular"
   },
   {
     "id": 2,
@@ -15,9 +15,9 @@
     "description": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
     "price": 13000,
     "availableSeat": 40,
-    "img": "https://tse2.mm.bing.net/th?id=OIP.d1m6wXGodVgS9Bs3HidbrgHaE5&pid=Api&P=0",
+    "img": "https://duruthemes.com/demo/html/travol/img/tours/greece1.jpg",
     "country": "France",
-    "status": "upcomeing"
+    "status": "popular"
   },
   {
     "id": 3,
@@ -25,9 +25,9 @@
     "description": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
     "price": 3000,
     "availableSeat": 50,
-    "img": "https://travelgreecetraveleurope.com/wp-content/uploads/2016/10/Blue-Bike-Tours-Paris-mygreecemytravels-blog-2.jpg",
+    "img": "https://duruthemes.com/demo/html/travol/img/tours/canada1.jpg",
     "country": "India",
-    "status": "upcomeing"
+    "status": "popular"
   },
   {
     "id": 4,
@@ -35,9 +35,9 @@
     "description": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
     "price": 3000,
     "availableSeat": 50,
-    "img": "https://travelgreecetraveleurope.com/wp-content/uploads/2016/10/Things-I-Learned-In-Paris-in-7-Days-mygreecemytravels-blog-21.jpg",
+    "img": "https://duruthemes.com/demo/html/travol/img/tours/greece1.jpg",
     "country": "Spain",
-    "status": "upcomeing"
+    "status": "popular"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "availableSeat": 40,
     "img": "https://avante.biz/wp-content/uploads/Oklahoma-Wallpapers/Oklahoma-Wallpapers-001.jpg",
     "country": "India",
-    "status": "upcomeing"
+    "status": "popular"
   },
   {
     "id": 6,
@@ -55,8 +55,28 @@
     "description": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
     "price": 3000,
     "availableSeat": 50,
-    "img": "https://tse2.mm.bing.net/th?id=OIP.d1m6wXGodVgS9Bs3HidbrgHaE5&pid=Api&P=0",
+    "img": "https://duruthemes.com/demo/html/travol/img/tours/canada1.jpg",
     "country": "India",
-    "status": "upcomeing"
+    "status": "popular"
+  },
+  {
+    "id": 7,
+    "name": "Channai Tour",
+    "description": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+    "price": 3000,
+    "availableSeat": 50,
+    "img": "https://duruthemes.com/demo/html/travol/img/tours/canada1.jpg",
+    "country": "India",
+    "status": "popular"
+  },
+  {
+    "id": 8,
+    "name": "Channai Tour",
+    "description": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+    "price": 3000,
+    "availableSeat": 50,
+    "img": "https://duruthemes.com/demo/html/travol/img/tours/canada1.jpg",
+    "country": "India",
+    "status": "popular"
   }
 ]

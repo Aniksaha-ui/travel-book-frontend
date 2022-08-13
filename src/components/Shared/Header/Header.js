@@ -1,13 +1,23 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import CustomLink from "../../CustomLink/CustomLink";
+import auth from "../../firebase.init";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { signOut } from "firebase/auth";
 
 const Header = () => {
+  const [user] = useAuthState(auth);
+  const navigate = useNavigate();
+  const signout = (e) => {
+    e.preventDefault();
+    signOut(auth);
+    navigate("/login");
+  };
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
-          <Link class="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/">
             Travel Book
           </Link>
           <button
@@ -33,36 +43,20 @@ const Header = () => {
                 </CustomLink>
               </li>
 
-              <li className="nav-item">
-                <CustomLink className="nav-link" to="/blogs">
-                  Blogs
-                </CustomLink>
-              </li>
-
               <>
-                <li className="nav-item">
-                  <CustomLink className="nav-link" to="/manage">
-                    Manage Inventory
-                  </CustomLink>
-                </li>
-                <li className="nav-item">
-                  <CustomLink className="nav-link" to="/myItem">
-                    My Item
-                  </CustomLink>
-                </li>
-                <li className="nav-item">
-                  <CustomLink className="nav-link" to="/addproduct">
-                    Add New
-                  </CustomLink>
-                </li>
-              </>
-
-              <>
-                <li className="nav-item">
-                  <CustomLink className="nav-link" to="/login">
-                    login
-                  </CustomLink>
-                </li>
+                {user ? (
+                  <li className="nav-item">
+                    <div className="nav-link" onClick={signout}>
+                      Logout
+                    </div>
+                  </li>
+                ) : (
+                  <li className="nav-item">
+                    <CustomLink className="nav-link" to="/login">
+                      login
+                    </CustomLink>
+                  </li>
+                )}
               </>
             </ul>
           </div>
