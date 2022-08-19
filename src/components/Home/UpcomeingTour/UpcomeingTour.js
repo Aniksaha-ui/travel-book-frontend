@@ -13,10 +13,10 @@ const UpcomeingTour = () => {
   return (
     <>
       <h3 className="text-primary text-center bg-light p-3">Upcomeing Tour</h3>
-      <div className="container-custom px-3">
+      <div className="container-custom p-5 card">
         <div className="mt-2">
-          <div className="row  row-cols-lg-3 row-cols-md-3 row-cols-1 g-1 g-lg-2">
-            {tours.map((tour) => (
+          <div className="row  row-cols-lg-4 row-cols-md-3 row-cols-1 g-4 g-lg-4">
+            {tours.slice(0, 4).map((tour) => (
               <ShowTour tour={tour} key={tour.id} />
             ))}
           </div>

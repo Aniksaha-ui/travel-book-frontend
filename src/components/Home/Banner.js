@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 
 const Banner = () => {
   return (
-    <div className="container">
-      <div className="row mt-3">
+    <div className="container mt-5 card p-5">
+      <div className="row">
         <div className="col-lg-7 col-md-12 col-12">
           <h3 className="text-primary text-center">
             Want a chill tour? Contact with Travel Book
