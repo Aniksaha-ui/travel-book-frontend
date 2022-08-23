@@ -4,20 +4,18 @@ import "../../Home/UpcomeingTour/upcomeing.css";
 import "./ShowTour.css";
 const ShowTour = (props) => {
   const {
-    id,
+    _id,
     name,
     starting_date,
-    description,
     shortDescription,
-    price,
     availableSeat,
     img,
     country,
   } = props.tour;
   const navigate = useNavigate();
 
-  const handleNavigate = (id) => {
-    navigate(`/tour/${id}`);
+  const handleNavigate = (_id) => {
+    navigate(`/tour/${_id}`);
   };
 
   return (
@@ -30,7 +28,7 @@ const ShowTour = (props) => {
           <h5 className="card-title ">
             <div
               className="nav-link text-dark"
-              onClick={() => handleNavigate(id)}
+              onClick={() => handleNavigate(_id)}
             >
               {name} ({country})
             </div>
@@ -38,11 +36,12 @@ const ShowTour = (props) => {
           <p className="nav-link text-dark margin-top-3">{shortDescription}</p>
           <div className="d-flex algin-items-center justify-content-between">
             <span className="ms-3 margin-top-1">
-              <i class="fa-solid fa-chair"></i>
+              <i className="fa-solid fa-chair"></i>
               {availableSeat}
             </span>
             <span className="margin-top-1">
-              <i class="fa-solid fa-person-seat-reclined"></i> {starting_date}
+              <i className="fa-solid fa-person-seat-reclined"></i>{" "}
+              {starting_date}
             </span>
           </div>
         </div>

@@ -11,7 +11,11 @@
     "status": "popular",
     "duration": "4 days",
     "starting_date": "22/10/2022",
-    "end_date": "22/10/2022"
+    "end_date": "22/10/2022",
+    "departure": "San francisco Internationl Airport",
+    "departureTime": "10:50am",
+    "include": ["A", "B", "C"],
+    "notInclude": ["D", "E"]
   },
   {
     "id": 2,
@@ -25,7 +29,11 @@
     "status": "popular",
     "duration": "4 days",
     "starting_date": "22/10/2022",
-    "end_date": "22/10/2022"
+    "end_date": "22/10/2022",
+    "departure": "San francisco Internationl Airport",
+    "departureTime": "10:50am",
+    "include": ["A", "B", "C"],
+    "notInclude": ["D", "E"]
   },
   {
     "id": 3,
@@ -39,7 +47,11 @@
     "status": "popular",
     "duration": "4 days",
     "starting_date": "22/10/2022",
-    "end_date": "22/10/2022"
+    "end_date": "22/10/2022",
+    "departure": "San francisco Internationl Airport",
+    "departureTime": "10:50am",
+    "include": ["A", "B", "C"],
+    "notInclude": ["D", "E"]
   },
   {
     "id": 4,
@@ -53,7 +65,11 @@
     "status": "popular",
     "duration": "4 days",
     "starting_date": "22/10/2022",
-    "end_date": "22/10/2022"
+    "end_date": "22/10/2022",
+    "departure": "San francisco Internationl Airport",
+    "departureTime": "10:50am",
+    "include": ["A", "B", "C"],
+    "notInclude": ["D", "E"]
   },
   {
     "id": 5,
@@ -67,7 +83,11 @@
     "status": "popular",
     "duration": "4 days",
     "starting_date": "22/10/2022",
-    "end_date": "22/10/2022"
+    "end_date": "22/10/2022",
+    "departure": "San francisco Internationl Airport",
+    "departureTime": "10:50am",
+    "include": ["A", "B", "C"],
+    "notInclude": ["D", "E"]
   },
   {
     "id": 6,
@@ -81,7 +101,11 @@
     "status": "popular",
     "duration": "4 days",
     "starting_date": "22/10/2022",
-    "end_date": "22/10/2022"
+    "end_date": "22/10/2022",
+    "departure": "San francisco Internationl Airport",
+    "departureTime": "10:50am",
+    "include": ["A", "B", "C"],
+    "notInclude": ["D", "E"]
   },
   {
     "id": 7,
@@ -95,7 +119,11 @@
     "status": "popular",
     "duration": "4 days",
     "starting_date": "22/10/2022",
-    "end_date": "22/10/2022"
+    "end_date": "22/10/2022",
+    "departure": "San francisco Internationl Airport",
+    "departureTime": "10:50am",
+    "include": ["A", "B", "C"],
+    "notInclude": ["D", "E"]
   },
   {
     "id": 8,
@@ -109,6 +137,10 @@
     "status": "popular",
     "duration": "4 days",
     "starting_date": "22/10/2022",
-    "end_date": "22/10/2022"
+    "end_date": "22/10/2022",
+    "departure": "San francisco Internationl Airport",
+    "departureTime": "10:50am",
+    "include": ["A", "B", "C"],
+    "notInclude": ["D", "E"]
   }
 ]
