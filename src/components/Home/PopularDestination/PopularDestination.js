@@ -4,7 +4,7 @@ import ShowTour from "../../Shared/ShowTour/ShowTour";
 const PopularDestination = () => {
   const [populars, setPopular] = useState([]);
   useEffect(() => {
-    fetch("https://fast-chamber-83056.herokuapp.com/tour/popular")
+    fetch("https://stormy-gorge-53796.herokuapp.com/tour/popular")
       .then((res) => res.json())
       .then((data) => setPopular(data));
   }, []);

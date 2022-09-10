@@ -88,6 +88,10 @@ const ShowDescription = (props) => {
           </ul>
         </div>
         <hr />
+        <div className="d-flex align-items-center justify-content-between">
+          <p>price</p>
+          <p>{price}</p>
+        </div>
       </div>
     </>
   );

@@ -5,7 +5,7 @@ import "./upcomeing.css";
 const UpcomeingTour = () => {
   const [tours, setTours] = useState([]);
   useEffect(() => {
-    fetch("https://fast-chamber-83056.herokuapp.com/tour/upcomeing")
+    fetch("https://stormy-gorge-53796.herokuapp.com/tour/upcomeing")
       .then((res) => res.json())
       .then((data) => setTours(data));
   }, []);

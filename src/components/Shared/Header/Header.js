@@ -45,11 +45,22 @@ const Header = () => {
 
               <>
                 {user ? (
-                  <li className="nav-item">
-                    <div className="nav-link" onClick={signout}>
-                      Logout
-                    </div>
-                  </li>
+                  <>
+                    <li className="nav-item">
+                      <CustomLink
+                        className="nav-link active"
+                        aria-current="page"
+                        to="/cart"
+                      >
+                        Cart
+                      </CustomLink>
+                    </li>
+                    <li className="nav-item">
+                      <div className="nav-link" onClick={signout}>
+                        Logout
+                      </div>
+                    </li>
+                  </>
                 ) : (
                   <li className="nav-item">
                     <CustomLink className="nav-link" to="/login">

@@ -12,7 +12,6 @@ const Review = () => {
 
   return (
     <>
-      <h3 className="text-center text-primary bg-light">Reviews</h3>
       <div
         id="carouselExampleDark"
         className="carousel carousel-dark slide mt-5 mb-5"
@@ -23,6 +22,9 @@ const Review = () => {
             <div className="d-flex align-items-center justify-content-center">
               <div className="card card-redius w-75 bg-3fd0d4">
                 <div className="card-body">
+                  <h3 className="text-center text-primary bg-light mb-3 mt-3">
+                    Reviews
+                  </h3>
                   <div className="d-flex align-items-center justify-content-center">
                     <img
                       src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/h1-testimonial-1.png"
