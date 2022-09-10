@@ -1,7 +1,9 @@
 import React from "react";
 
 const ShowCart = (props) => {
+  console.log(props);
   const { tourName, price, phone, numberOfPerson } = props.c;
+
   return (
     <div class="card-body bg-light">
       <div className="d-flex align-items-center justify-content-between">

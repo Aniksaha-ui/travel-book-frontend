@@ -4,6 +4,7 @@ import auth from "../components/firebase.init";
 import { useQuery } from "react-query";
 const useCart = () => {
   const [user] = useAuthState(auth);
+  let total = 0;
   const email = user.email;
   const {
     data: cart,
